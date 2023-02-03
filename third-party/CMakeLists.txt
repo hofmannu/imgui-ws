@@ -6,5 +6,4 @@ if (IMGUI_WS_ALL_WARNINGS_3RD_PARTY)
     endif()
 endif()
 
-add_subdirectory(imgui)
 add_subdirectory(incppect)

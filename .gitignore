@@ -2,6 +2,7 @@ compile_commands.json
 build
 build-*
 data/
+third-party/incppect
 
 .clangd
 .cache
