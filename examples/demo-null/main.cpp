@@ -1,4 +1,4 @@
-#include "imgui/imgui.h"
+#include "imgui.h"
 #include "imgui-ws/imgui-ws.h"
 
 #include "common.h"
@@ -213,11 +213,6 @@ int main(int argc, char ** argv) {
         }
 
         ImGui::NewFrame();
-
-        // render stuff
-        if (state.showDemoWindow) {
-            ImGui::ShowDemoWindow(&state.showDemoWindow);
-        }
 
         // debug window
         {

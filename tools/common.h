@@ -4,7 +4,7 @@
 
 #pragma once
 
-#include "imgui/imgui.h"
+#include "imgui.h"
 #include "imgui-ws/imgui-ws.h"
 
 #include <vector>
@@ -163,7 +163,7 @@ struct Session {
         return true;
     }
 
-    bool getFrame(int32_t fid, ImDrawData * drawData, std::vector<ImDrawList> & drawLists, const ImDrawListSharedData * drawListSharedData) {
+    bool getFrame(int32_t fid, ImDrawData * drawData, std::vector<ImDrawList> & drawLists, ImDrawListSharedData * drawListSharedData) {
         if (fid >= (int32_t) frames.size()) return false;
 
         size_t offset = 0;

@@ -1,4 +1,4 @@
-#include "imgui/imgui.h"
+#include "imgui.h"
 #include "imgui-ws/imgui-ws.h"
 
 #include "common.h"
@@ -61,7 +61,6 @@ int main(int argc, char ** argv) {
         ImGui::End();
 
         ImGui::SetNextWindowPos({ 20, 360 });
-        ImGui::ShowAboutWindow();
 
         // generate ImDrawData
         ImGui::Render();

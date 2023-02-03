@@ -21,7 +21,6 @@ target_include_directories(imgui-ws PUBLIC
     )
 
 target_link_libraries(imgui-ws PRIVATE
-    imgui
     incppect
     ${CMAKE_DL_LIBS}
     ${CMAKE_THREAD_LIBS_INIT}

@@ -4,7 +4,7 @@
 
 #include "imgui-ws/imgui-draw-data-compressor.h"
 
-#include "imgui/imgui.h"
+#include "imgui.h"
 
 #include <cstring>
 
